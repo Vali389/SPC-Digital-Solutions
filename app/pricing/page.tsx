@@ -1,6 +1,7 @@
 import { Header } from "@/components/header"
 import { PricingHeroSection } from "@/components/pricing-hero-section"
 import { PricingSection } from "@/components/pricing-section"
+import { DevelopmentServicesSection } from "@/components/development-services-section"
 import { FeaturesSection } from "@/components/features-section"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
@@ -12,6 +13,7 @@ export default function Pricing() {
       <Header />
       <PricingHeroSection />
       <PricingSection />
+      <DevelopmentServicesSection />
       <FeaturesSection />
       <Footer />
       <WhatsAppButton />
