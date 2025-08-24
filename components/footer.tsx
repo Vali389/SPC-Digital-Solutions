@@ -11,6 +11,42 @@ export function Footer() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
+        <div className="mb-16">
+          <div className="flex flex-col lg:flex-row justify-between items-center bg-slate-800/50 rounded-2xl p-8 border border-green-500/20">
+            <div className="lg:w-2/3 mb-8 lg:mb-0">
+              <h3 className="text-3xl font-bold mb-4 font-serif">Subscribe to Our Newsletter</h3>
+              <p className="text-gray-300 text-lg mb-6">
+                Stay updated with the latest courses, tech trends, and career opportunities.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 max-w-md">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  className="flex-1 px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
+                />
+                <button className="px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2">
+                  Subscribe →
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <div className="relative mb-4">
+                <div className="absolute inset-0 bg-green-500 rounded-full blur-lg opacity-60 animate-pulse"></div>
+                <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-green-500 shadow-lg shadow-green-500/50">
+                  <img src="/vali-instructor-photo.png" alt="Vali" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-white mb-1">You!</div>
+                <div className="text-sm text-gray-300 max-w-[200px]">
+                  Always curious, interactive & ready to celebrate win moments!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
