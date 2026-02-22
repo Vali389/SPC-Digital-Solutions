@@ -1,17 +1,17 @@
 export function TechnologiesSection() {
   const technologies = [
     { name: "React.js", icon: "⚛️", level: 95 },
-    { name: "Node.js", icon: "🟢", level: 90 },
-    { name: "MongoDB", icon: "🍃", level: 88 },
-    { name: "MySQL", icon: "🐬", level: 85 },
-    { name: "Python", icon: "🐍", level: 82 },
-    { name: "AWS", icon: "☁️", level: 80 },
+    { name: "React Native", icon: "📱", level: 90 },
     { name: "Next.js", icon: "▲", level: 92 },
-    { name: "NestJS", icon: "🦅", level: 78 },
-    { name: "C/C++", icon: "⚡", level: 75 },
+    { name: "Node.js", icon: "🟢", level: 90 },
     { name: "Express.js", icon: "🚀", level: 90 },
-    { name: "JavaScript", icon: "💛", level: 95 },
+    { name: "MongoDB", icon: "🍃", level: 88 },
     { name: "TypeScript", icon: "🔷", level: 88 },
+    { name: "MySQL", icon: "🐬", level: 85 },
+    { name: "JavaScript", icon: "💛", level: 95 },
+    { name: "AWS", icon: "☁️", level: 80 },
+    { name: "Tailwind CSS", icon: "🎨", level: 90 },
+    { name: "REST APIs", icon: "🔌", level: 92 },
   ]
 
   return (
@@ -23,7 +23,7 @@ export function TechnologiesSection() {
             <span className="text-accent"> Stack</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Mastering cutting-edge technologies to build scalable, modern applications
+            Building responsive websites and cross-platform mobile apps with modern technologies
           </p>
         </div>
 

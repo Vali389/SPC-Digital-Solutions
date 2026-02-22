@@ -25,7 +25,7 @@ export function Header() {
           </div>
           <div>
             <div className="text-foreground font-bold text-xl font-serif">Vali's Tech Hub</div>
-            <div className="text-accent text-sm font-medium">#FullStackDeveloper</div>
+            <div className="text-accent text-sm font-medium">#ValisTechHub</div>
           </div>
         </Link>
 

@@ -7,26 +7,26 @@ export function CommunitySection() {
   const communityFeatures = [
     {
       icon: Users,
-      title: "Active Learning Community",
-      description: "Join 500+ students in our vibrant learning community where everyone helps each other grow.",
+      title: "50+ Projects Delivered",
+      description: "Websites and mobile apps built for businesses across industries - from startups to established brands.",
       color: "from-green-500 to-emerald-600",
     },
     {
       icon: MessageCircle,
-      title: "24/7 Support Group",
-      description: "Get instant help from peers and mentors in our dedicated WhatsApp and Discord groups.",
+      title: "Direct Communication",
+      description: "Stay in touch via WhatsApp - quick responses, regular updates, and clear project communication.",
       color: "from-blue-500 to-cyan-600",
     },
     {
       icon: Trophy,
-      title: "Achievement Recognition",
-      description: "Celebrate milestones with certificates, badges, and showcase your projects to the community.",
+      title: "Proven Results",
+      description: "Tutoring platforms, e-commerce sites, business websites, and mobile apps - all delivered successfully.",
       color: "from-purple-500 to-pink-600",
     },
     {
       icon: Heart,
-      title: "Lifetime Access",
-      description: "Once you join, you're family! Get lifetime access to community resources and updates.",
+      title: "Post-Launch Support",
+      description: "We don't disappear after launch. Get support, updates, and maintenance when you need it.",
       color: "from-red-500 to-orange-600",
     },
   ]
@@ -47,10 +47,10 @@ export function CommunitySection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-            Join Our Tech Community
+            Let&apos;s Build Together
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Be part of a supportive community where developers help each other succeed and grow together
+            Have a web or mobile project in mind? Get in touch and let&apos;s turn your idea into reality
           </p>
         </motion.div>
 
@@ -80,14 +80,14 @@ export function CommunitySection() {
           className="text-center mt-16"
         >
           <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-2xl p-8 border border-green-500/30">
-            <h3 className="text-2xl font-bold text-white mb-4">Ready to Join Our Community?</h3>
-            <p className="text-gray-300 mb-6">Start your journey with like-minded developers today!</p>
+            <h3 className="text-2xl font-bold text-white mb-4">Ready to Start Your Project?</h3>
+            <p className="text-gray-300 mb-6">Website or mobile app - let&apos;s discuss your requirements and get started!</p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg hover:shadow-green-500/25 transition-all duration-300"
             >
-              Join Community Now
+              Get in Touch
             </motion.button>
           </div>
         </motion.div>

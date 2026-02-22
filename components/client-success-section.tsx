@@ -58,7 +58,7 @@ export function ClientSuccessSection() {
             Real Projects, Real Results
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            See how I've helped businesses transform their ideas into successful digital solutions
+            Websites and mobile apps built for businesses - from tutoring platforms to e-commerce and more
           </p>
         </motion.div>
 

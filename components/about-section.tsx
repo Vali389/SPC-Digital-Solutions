@@ -9,8 +9,8 @@ export function AboutSection() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">Meet Your Instructor</h2>
             <div className="space-y-6 text-lg">
               <p>
-                Hi, I'm <span className="text-accent font-semibold">Vali</span>, a passionate MERN stack developer with{" "}
-                <span className="text-accent font-semibold">3 years of industry experience</span>. I specialize in
+                Hi, I&apos;m <span className="text-accent font-semibold">Vali</span>, Founder of Vali&apos;s Tech Hub Pvt Limited. 
+                With <span className="text-accent font-semibold">3 years of industry experience</span>, I specialize in
                 building modern web applications and mobile apps using cutting-edge technologies.
               </p>
               <p>
@@ -45,7 +45,7 @@ export function AboutSection() {
             <div className="relative z-10">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-zMqAxT06hRsQ5kypqI0Oilpov6eNYJ.png"
-                alt="Vali - MERN Stack Instructor"
+                alt="Vali - Founder of Vali's Tech Hub Pvt Limited"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
               />
             </div>

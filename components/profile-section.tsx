@@ -12,7 +12,7 @@ export function ProfileSection() {
                   <div className="w-full h-full rounded-full overflow-hidden bg-background">
                     <Image
                       src="/vali-instructor-photo.png"
-                      alt="Vali - MERN Stack Instructor"
+                      alt="Vali - Founder of Vali's Tech Hub"
                       width={192}
                       height={192}
                       className="w-full h-full object-cover"
@@ -37,7 +37,7 @@ export function ProfileSection() {
             <div className="text-center p-6 rounded-xl bg-card border border-border">
               <div className="text-3xl font-bold text-accent mb-2">3+</div>
               <div className="text-lg font-medium text-foreground mb-1">Years Experience</div>
-              <div className="text-sm text-muted-foreground">In MERN Stack Development</div>
+              <div className="text-sm text-muted-foreground">In Web & Mobile Development</div>
             </div>
             <div className="text-center p-6 rounded-xl bg-card border border-border">
               <div className="text-3xl font-bold text-accent mb-2">500+</div>

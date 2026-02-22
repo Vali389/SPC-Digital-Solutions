@@ -39,50 +39,40 @@ export function HeroSection() {
 
       <div className="relative z-20 text-center max-w-7xl mx-auto px-4 pt-24">
         <div className="mb-12">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 tracking-wide font-serif animate-fade-in">
-            <span className="text-white">Full</span>
-            <span className="text-accent">Stack</span>
-            <span className="text-white">Developer</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 tracking-tight">
+            Vali&apos;s Tech Hub
+            <span className="block text-accent text-2xl md:text-3xl mt-2">Pvt Limited</span>
           </h1>
 
-          <div className="mb-8">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-wider">VALI MEERA</h2>
-            <h3 className="text-lg md:text-2xl lg:text-3xl font-bold text-accent tracking-wider">
-              MERN • Mobile Apps • Web Development
-            </h3>
+          <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto mb-10 leading-relaxed">
+            We build custom websites and mobile apps that help your business grow — e-commerce, tutoring platforms, business catalogs, and more.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-gray-300">
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent" />
+              Websites
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent" />
+              Mobile Apps
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent" />
+              E-Commerce
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent" />
+              Business Solutions
+            </span>
           </div>
 
-          <div className="text-lg md:text-xl lg:text-2xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
-            3+ Years Experience • Expert Training • Real-World Projects • Client Solutions
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent">500+</div>
-              <div className="text-sm text-gray-300">Students Trained</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent">50+</div>
-              <div className="text-sm text-gray-300">Projects Built</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent">3+</div>
-              <div className="text-sm text-gray-300">Years Experience</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent">100%</div>
-              <div className="text-sm text-gray-300">Job Ready</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-16">
-          <button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-10 py-4 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-accent/25">
-            Start Your Journey
-          </button>
-          <button className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground font-bold px-10 py-4 rounded-xl text-lg transition-all duration-300 hover:scale-105">
-            View Portfolio
-          </button>
+          <a
+            href="/contact"
+            className="inline-block mt-12 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-accent/20"
+          >
+            Get in Touch
+          </a>
         </div>
       </div>
     </section>

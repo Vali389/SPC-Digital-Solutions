@@ -29,7 +29,7 @@ export function ComparisonSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4">
-            Why Choose <span className="text-green-400">Vali Tech Hub?</span>
+            Why Choose <span className="text-green-400">Vali&apos;s Tech Hub?</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Compare our comprehensive training program with others in the market.
@@ -43,7 +43,7 @@ export function ComparisonSection() {
                 <h3 className="text-lg font-semibold text-gray-400">Features</h3>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-green-400">Vali Tech Hub</h3>
+                <h3 className="text-lg font-semibold text-green-400">Vali&apos;s Tech Hub</h3>
               </div>
               <div className="text-center">
                 <h3 className="text-lg font-semibold text-gray-400">Others</h3>

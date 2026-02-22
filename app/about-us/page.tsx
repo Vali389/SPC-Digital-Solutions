@@ -1,75 +1,90 @@
 import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
+import { ScrollToTop } from "@/components/scroll-to-top"
+import Link from "next/link"
 
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
 
-      <section className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(34,197,94,0.1),transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(var(--accent)/0.1),transparent_50%)]"></div>
         </div>
 
-        <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
+        <div className="relative z-10 text-center max-w-6xl mx-auto px-4 py-24">
           <div className="mb-12">
-            <h1 className="text-7xl md:text-9xl font-bold mb-8 tracking-wide">
-              <span className="text-white">asmit</span>
-              <span className="text-green-500">ap</span>
-              <span className="text-white">atel</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 tracking-wide font-serif">
+              <span className="text-white">Vali&apos;s Tech Hub</span>
+              <span className="text-accent"> Pvt Limited</span>
             </h1>
 
-            {/* Profile image placeholder */}
-            <div className="mb-8 flex justify-center">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-green-500">
-                <img src="/professional-woman-stock-market-mentor-portrait.png" alt="Asmita Patel" className="w-full h-full object-cover" />
-              </div>
-            </div>
-
             <div className="mb-8">
-              <h2 className="text-2xl md:text-4xl font-bold text-white mb-4 tracking-wider">A HIGHLY ADMIRED</h2>
-              <h2 className="text-2xl md:text-4xl font-bold text-white tracking-wider">STOCK MARKET MENTOR</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-white mb-4 tracking-wider">
+                WEB & MOBILE DEVELOPMENT
+              </h2>
+              <h3 className="text-lg md:text-2xl font-bold text-accent tracking-wider">
+                Building Digital Solutions for Businesses
+              </h3>
             </div>
 
-            <div className="text-xl md:text-2xl text-gray-400 tracking-[0.3em] font-light mb-8">
-              A S M I T A &nbsp;&nbsp;&nbsp; P A T E L
-            </div>
-
-            <div className="max-w-4xl mx-auto text-gray-300 text-lg leading-relaxed">
+            <div className="max-w-4xl mx-auto text-gray-300 text-lg leading-relaxed space-y-4">
               <p>
-                A woman who is on a mission to uplift the lives of people, Asmita Patel seeks to empower people with the
-                right knowledge when it comes to finance, stock market and investing one's wealth in a responsible and
-                mindful manner. Born in a traditional Gujarati family, and embodying strong values and ethics as a
-                teacher, she has won numerous awards, for her contribution to thousands of lives. With 17 years of
-                trading experience, and 10+ years of teaching experience, Asmita Patel is a thought leader and an
-                admired mentor.
+                Vali&apos;s Tech Hub Pvt Limited is a technology company specializing in web development and mobile app development. 
+                We help businesses transform their ideas into powerful digital solutions.
+              </p>
+              <p>
+                Founded with a vision to deliver quality software development services, we have completed 50+ projects 
+                including websites, e-commerce platforms, tutoring systems, business catalogs, and mobile applications 
+                for clients across India and internationally.
+              </p>
+              <p>
+                Our expertise spans React, Next.js, React Native, Node.js, and modern full-stack technologies. 
+                We combine technical excellence with client-focused delivery to ensure every project succeeds.
               </p>
             </div>
           </div>
 
-          {/* Large stylized name at bottom */}
-          <div className="mt-20">
-            <h3 className="text-6xl md:text-8xl font-bold text-white opacity-80">Asmit</h3>
-            <h3 className="text-6xl md:text-8xl font-bold text-white opacity-80 -mt-4">aPatel</h3>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
+            <Link
+              href="/contact"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8 py-3 rounded-xl text-lg transition-all duration-300 hover:scale-105"
+            >
+              Contact Us
+            </Link>
+            <Link
+              href="/"
+              className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground font-bold px-8 py-3 rounded-xl text-lg transition-all duration-300 hover:scale-105"
+            >
+              Our Services
+            </Link>
           </div>
         </div>
 
-        {/* Floating animation elements */}
-        <div className="absolute top-20 left-10 w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-        <div className="absolute bottom-32 right-16 w-3 h-3 bg-green-500 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-20 w-1 h-1 bg-green-500 rounded-full animate-pulse delay-500"></div>
+        <div className="absolute top-20 left-10 w-2 h-2 bg-accent rounded-full animate-pulse"></div>
+        <div className="absolute bottom-32 right-16 w-3 h-3 bg-accent rounded-full animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-20 w-1 h-1 bg-accent rounded-full animate-pulse delay-500"></div>
       </section>
 
-      {/* Contact section */}
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h3 className="text-green-500 text-xl font-semibold mb-4">Contact Us</h3>
-          <a href="mailto:hello@asmitapatel.com" className="text-white hover:text-green-500 transition-colors">
-            hello@asmitapatel.com
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4 text-center">
+          <h3 className="text-3xl font-bold mb-8">Vali&apos;s Tech Hub Pvt Limited</h3>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
+            Web Development • Mobile App Development • E-Commerce • Business Websites
+          </p>
+          <a href="mailto:meeravalisk89@gmail.com" className="text-accent hover:underline font-medium">
+            meeravalisk89@gmail.com
           </a>
-          <div className="mt-8 text-gray-400 text-sm">© 2024 Asmita Patel. All Rights Reserved.</div>
+          <div className="mt-8 text-muted-foreground text-sm">© 2024 Vali&apos;s Tech Hub Pvt Limited. All Rights Reserved.</div>
         </div>
       </section>
+
+      <Footer />
+      <WhatsAppButton />
+      <ScrollToTop />
     </div>
   )
 }

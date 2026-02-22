@@ -55,7 +55,7 @@ export function Footer() {
               </div>
               <div>
                 <div className="font-bold text-2xl font-serif">Vali's Tech Hub</div>
-                <div className="text-green-400 text-sm font-medium">#FullStackDeveloper</div>
+                <div className="text-green-400 text-sm font-medium">#ValisTechHub</div>
               </div>
             </div>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">

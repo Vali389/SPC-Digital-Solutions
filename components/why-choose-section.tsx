@@ -1,23 +1,23 @@
 export function WhyChooseSection() {
   const reasons = [
     {
-      title: "Hands-on Learning",
-      description: "Real-time projects and practical experience with industry-standard tools",
+      title: "Web & Mobile Expertise",
+      description: "3+ years building websites and mobile apps - from business sites to full platforms",
       icon: "💻",
     },
     {
-      title: "Expert Mentorship",
-      description: "3+ years of professional experience in MERN stack development",
-      icon: "👨‍🏫",
+      title: "Modern Tech Stack",
+      description: "React, Next.js, React Native, Node.js - proven technologies for scalable solutions",
+      icon: "⚡",
     },
     {
-      title: "Affordable Pricing",
-      description: "Quality education at ₹10,000 with free classes for underprivileged students",
-      icon: "💰",
+      title: "On-Time Delivery",
+      description: "Clear timelines, regular updates, and projects delivered as promised",
+      icon: "📅",
     },
     {
-      title: "Complete Support",
-      description: "From basics to advanced concepts with dedicated tutors and guidance",
+      title: "End-to-End Support",
+      description: "From concept to launch and beyond - we stay with you through deployment",
       icon: "🤝",
     },
   ]
@@ -26,9 +26,9 @@ export function WhyChooseSection() {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold font-serif text-foreground mb-4">Why Choose Vali's Training Center?</h2>
+          <h2 className="text-4xl font-bold font-serif text-foreground mb-4">Why Choose Us for Your Project?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience the difference with personalized learning and real-world application
+            Professional web and mobile development with quality results and dedicated support
           </p>
         </div>
 

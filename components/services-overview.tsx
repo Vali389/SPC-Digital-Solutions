@@ -1,24 +1,24 @@
 export function ServicesOverview() {
   const services = [
     {
-      title: "MERN Stack Training",
-      description: "Complete full-stack development bootcamp with hands-on projects",
-      icon: "🎓",
-    },
-    {
-      title: "Website Development",
-      description: "Custom websites built with modern technologies and best practices",
+      title: "Web Development",
+      description: "Custom websites and web applications built with modern technologies - from business sites to complex web platforms",
       icon: "🌐",
     },
     {
       title: "Mobile App Development",
-      description: "Cross-platform mobile applications for iOS and Android",
+      description: "Cross-platform mobile applications for iOS and Android - native performance with React Native",
       icon: "📱",
     },
     {
-      title: "AWS Cloud Training",
-      description: "Learn cloud computing and deployment with Amazon Web Services",
-      icon: "☁️",
+      title: "E-Commerce & Business Websites",
+      description: "Online stores, product catalogs, and business websites that drive growth and sales",
+      icon: "🛒",
+    },
+    {
+      title: "Full-Stack Solutions",
+      description: "End-to-end development - frontend, backend, database, and deployment for web and mobile",
+      icon: "⚡",
     },
   ]
 
@@ -26,9 +26,9 @@ export function ServicesOverview() {
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold font-serif text-foreground mb-4">What I Offer</h2>
+          <h2 className="text-4xl font-bold font-serif text-foreground mb-4">Mobile & Web Development</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From training the next generation of developers to building cutting-edge applications
+            Building custom websites and mobile apps that transform businesses and reach users everywhere
           </p>
         </div>
 

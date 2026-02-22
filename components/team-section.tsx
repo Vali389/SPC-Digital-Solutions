@@ -4,9 +4,9 @@ export function TeamSection() {
   const teamMembers = [
     {
       name: "Vali",
-      role: "Lead Instructor & Founder",
+      role: "Founder of Vali's Tech Hub",
       experience: "3+ Years",
-      specialization: "Full Stack Development",
+      specialization: "Web & Mobile Development",
       image: "/vali-instructor-photo.png",
     },
     {

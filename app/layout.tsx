@@ -18,9 +18,9 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "Vali's Training Center - MERN Stack Development Bootcamp",
+  title: "Vali's Tech Hub - Web & Mobile Development",
   description:
-    "Learn full-stack development with Vali - Expert MERN stack instructor with 3 years experience. Affordable courses with free classes for underprivileged students.",
+    "Vali's Tech Hub - Founder Vali delivers websites and mobile apps. 3+ years experience, 50+ projects. Web development, mobile apps, and training.",
   generator: "v0.app",
 }
 
@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}>
-      <body className="dark font-sans antialiased">{children}</body>
+    <html lang="en" className={`${playfair.variable} ${sourceSans.variable} overflow-x-hidden`}>
+      <body className="dark font-sans antialiased overflow-x-hidden">{children}</body>
     </html>
   )
 }

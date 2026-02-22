@@ -3,33 +3,33 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export function FeaturesSection() {
   const features = [
     {
-      title: "Hands-On Projects",
-      description: "Build real-world applications that you can showcase in your portfolio",
-      icon: "🚀",
+      title: "Responsive Web Design",
+      description: "Websites that look great and work perfectly on desktop, tablet, and mobile devices",
+      icon: "🌐",
     },
     {
-      title: "Industry Experience",
-      description: "Learn from 3+ years of practical development experience in the field",
-      icon: "💼",
+      title: "Cross-Platform Mobile Apps",
+      description: "Single codebase for iOS and Android - faster delivery, lower cost",
+      icon: "📱",
     },
     {
-      title: "Personal Mentorship",
-      description: "Get one-on-one guidance and support throughout your learning journey",
-      icon: "👨‍🏫",
-    },
-    {
-      title: "Job-Ready Skills",
-      description: "Master the technologies and practices used in modern development teams",
+      title: "Modern Tech Stack",
+      description: "React, Next.js, Node.js, React Native - industry-standard technologies",
       icon: "⚡",
     },
     {
-      title: "Flexible Learning",
-      description: "Learn at your own pace with recorded sessions and live doubt-clearing",
-      icon: "🎯",
+      title: "Fast & Scalable",
+      description: "Optimized performance and architecture that grows with your business",
+      icon: "🚀",
     },
     {
-      title: "Community Support",
-      description: "Join a community of learners and get help from peers and tutors",
+      title: "End-to-End Development",
+      description: "From design to deployment - complete solutions for web and mobile",
+      icon: "🛠️",
+    },
+    {
+      title: "Client-Focused",
+      description: "Clear communication, on-time delivery, and support after launch",
       icon: "🤝",
     },
   ]
@@ -40,7 +40,7 @@ export function FeaturesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">Why Choose Us?</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We provide more than just coding lessons - we prepare you for a successful career in tech
+            Professional web and mobile development with quality, reliability, and results that speak for themselves
           </p>
         </div>
 

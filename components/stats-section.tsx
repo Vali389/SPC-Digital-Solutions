@@ -1,9 +1,9 @@
 export function StatsSection() {
   const stats = [
-    { number: "3+", label: "Years Experience", description: "Professional Development" },
-    { number: "500+", label: "Students Trained", description: "Successful Careers" },
-    { number: "100+", label: "Projects Completed", description: "Websites & Apps" },
-    { number: "₹10K", label: "Course Fee", description: "Affordable Learning" },
+    { number: "3+", label: "Years Experience", description: "Web & Mobile Development" },
+    { number: "50+", label: "Projects Delivered", description: "Websites & Mobile Apps" },
+    { number: "100+", label: "Projects Completed", description: "Client Success Stories" },
+    { number: "100%", label: "Client Focus", description: "Quality & On-Time Delivery" },
   ]
 
   return (

@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { PricingHeroSection } from "@/components/pricing-hero-section"
 import { PricingSection } from "@/components/pricing-section"
 import { DevelopmentServicesSection } from "@/components/development-services-section"
+import { ProjectsShowcase } from "@/components/projects-showcase"
 import { FeaturesSection } from "@/components/features-section"
 import { PaymentOptionsSection } from "@/components/payment-options-section"
 import { ComparisonSection } from "@/components/comparison-section"
@@ -17,6 +18,7 @@ export default function Pricing() {
       <PricingHeroSection />
       <PricingSection />
       <DevelopmentServicesSection />
+      <ProjectsShowcase />
       <FeaturesSection />
       <PaymentOptionsSection />
       <ComparisonSection />

@@ -9,11 +9,11 @@ export function ExperienceSection() {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "React Native"],
     },
     {
-      title: "Full Stack Developer & Trainer",
-      company: "Vali's Training Center",
+      title: "Founder of Vali's Tech Hub",
+      company: "Vali's Tech Hub",
       period: "2022 - Present",
       description:
-        "Training 500+ students in MERN stack development while continuing to build real-world projects. Providing hands-on experience and mentorship.",
+        "Building Vali's Tech Hub - delivering web and mobile development services while training students. 50+ client projects and 500+ students trained.",
       technologies: ["Teaching", "Mentoring", "Project Management", "AWS", "DevOps"],
     },
     {

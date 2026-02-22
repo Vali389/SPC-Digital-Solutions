@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { AboutHeroSection } from "@/components/about-hero-section"
 import { AboutSection } from "@/components/about-section"
 import { ProfileSection } from "@/components/profile-section"
+import { ProjectsShowcase } from "@/components/projects-showcase"
 import { TrainingApproachSection } from "@/components/training-approach-section"
 import { LiveClassesSection } from "@/components/live-classes-section"
 import { WhyChooseUsSection } from "@/components/why-choose-us-section"
@@ -21,6 +22,7 @@ export default function About() {
       <AboutHeroSection />
       <AboutSection />
       <ProfileSection />
+      <ProjectsShowcase />
       <TrainingApproachSection />
       <LiveClassesSection />
       <WhyChooseUsSection />

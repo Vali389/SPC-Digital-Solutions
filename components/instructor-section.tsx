@@ -25,7 +25,7 @@ export function InstructorSection() {
             Meet Your <span className="text-green-400">Instructor</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Learn from an experienced developer who has worked on real-world projects and trained hundreds of students
+            Learn from the Founder of Vali&apos;s Tech Hub who has delivered 50+ projects and trained hundreds of students
           </p>
         </motion.div>
 
@@ -40,17 +40,16 @@ export function InstructorSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 rounded-full blur-lg opacity-30 animate-pulse"></div>
               <Image
                 src="/vali-instructor-photo.png"
-                alt="Vali - MERN Stack Instructor"
+                alt="Vali - Founder of Vali's Tech Hub"
                 fill
                 className="rounded-full object-cover border-4 border-green-400/30 relative z-10"
               />
             </div>
             <h3 className="text-3xl font-bold mb-2">Vali</h3>
-            <p className="text-green-400 text-xl mb-4">MERN Stack Developer & Mentor</p>
+            <p className="text-green-400 text-xl mb-4">Founder of Vali&apos;s Tech Hub</p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Passionate full-stack developer with 3+ years of experience in building scalable web applications and
-              mobile apps. Dedicated to making coding accessible to everyone through comprehensive training and
-              mentorship.
+              Founder of Vali&apos;s Tech Hub with 3+ years of experience in building scalable web applications and
+              mobile apps. Dedicated to delivering quality development services and making tech accessible through training.
             </p>
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
               {["JavaScript", "React.js", "Node.js", "MongoDB", "React Native", "AWS"].map((skill, index) => (

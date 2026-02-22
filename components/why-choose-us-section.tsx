@@ -48,7 +48,7 @@ export function WhyChooseUsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Choose <span className="text-green-400">Vali Tech Hub</span>?
+            Why Choose <span className="text-green-400">Vali&apos;s Tech Hub</span>?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Experience the difference with our personalized approach to MERN stack training
