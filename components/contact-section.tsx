@@ -34,17 +34,17 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div className="text-muted-foreground">meeravalisk89@gmail.com</div>
+                  <div className="text-muted-foreground">contact@spcdigitalsolutions.com</div>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
-                  <span className="text-accent text-xl">🎓</span>
+                  <span className="text-accent text-xl">🌐</span>
                 </div>
                 <div>
                   <div className="font-semibold">Specialization</div>
-                  <div className="text-muted-foreground">MERN Stack Development</div>
+                  <div className="text-muted-foreground">Web & Mobile App Solutions</div>
                 </div>
               </div>
 
@@ -87,10 +87,9 @@ export function ContactSection() {
               </Button>
 
               <div className="mt-6 p-4 bg-accent/10 rounded-lg">
-                <h4 className="font-semibold text-accent mb-2">Free Consultation</h4>
+                <h4 className="font-semibold text-accent mb-2">Free Technical Consultation</h4>
                 <p className="text-sm text-muted-foreground">
-                  Not sure which course is right for you? Book a free 15-minute consultation to discuss your goals and
-                  get personalized recommendations.
+                  Planning a new website, mobile app, or enterprise platform? Book a free consultation with our technical team to discuss architecture, timelines, and budget.
                 </p>
               </div>
             </CardContent>

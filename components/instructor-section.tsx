@@ -22,10 +22,10 @@ export function InstructorSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4">
-            Meet Your <span className="text-green-400">Instructor</span>
+            Meet the <span className="text-green-400">Founders</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Learn from the Founder of Vali&apos;s Tech Hub who has delivered 50+ projects and trained hundreds of students
+            Technical leadership from the Founders of SPC Digital Solutions who have delivered 100+ digital projects
           </p>
         </motion.div>
 
@@ -39,17 +39,17 @@ export function InstructorSection() {
             <div className="relative w-64 h-64 mx-auto lg:mx-0 mb-8">
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 rounded-full blur-lg opacity-30 animate-pulse"></div>
               <Image
-                src="/vali-instructor-photo.png"
-                alt="Vali - Founder of Vali's Tech Hub"
+                src="/female-developer-portrait.png"
+                alt="Sarah - Founder of SPC Digital Solutions"
                 fill
                 className="rounded-full object-cover border-4 border-green-400/30 relative z-10"
               />
             </div>
-            <h3 className="text-3xl font-bold mb-2">Vali</h3>
-            <p className="text-green-400 text-xl mb-4">Founder of Vali&apos;s Tech Hub</p>
+            <h3 className="text-3xl font-bold mb-2">Sarah & Babu</h3>
+            <p className="text-green-400 text-xl mb-4">Founders of SPC Digital Solutions</p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Founder of Vali&apos;s Tech Hub with 3+ years of experience in building scalable web applications and
-              mobile apps. Dedicated to delivering quality development services and making tech accessible through training.
+              Founders of SPC Digital Solutions with 5+ years of combined experience in building scalable web applications,
+              mobile apps, and enterprise cloud solutions.
             </p>
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
               {["JavaScript", "React.js", "Node.js", "MongoDB", "React Native", "AWS"].map((skill, index) => (

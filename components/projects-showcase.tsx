@@ -35,7 +35,7 @@ export function ProjectsShowcase() {
             <span className="text-accent"> Projects</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real-world applications built for clients and training purposes
+            High-impact web and mobile solutions engineered for businesses across diverse industries
           </p>
         </div>
 

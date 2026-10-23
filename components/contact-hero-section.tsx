@@ -24,12 +24,12 @@ export function ContactHeroSection() {
               START YOUR DEVELOPMENT JOURNEY
             </h2>
             <h3 className="text-lg md:text-2xl font-bold text-accent tracking-wider">
-              Training • Development • Consultation
+              Web Development • Mobile Apps • Custom Software
             </h3>
           </div>
 
           <div className="text-lg md:text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
-            Ready to transform your career or bring your project to life? Get in touch today!
+            Ready to build your digital product or elevate your business? Get in touch with our team today!
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
@@ -38,7 +38,7 @@ export function ContactHeroSection() {
               <div className="text-sm text-gray-300">Call or WhatsApp</div>
             </div>
             <div className="text-center">
-              <div className="text-xl md:text-2xl font-bold text-accent">meeravalisk89@gmail.com</div>
+              <div className="text-xl md:text-2xl font-bold text-accent">contact@spcdigitalsolutions.com</div>
               <div className="text-sm text-gray-300">Email</div>
             </div>
           </div>

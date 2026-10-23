@@ -4,27 +4,27 @@ export function AchievementsSection() {
   const achievements = [
     {
       icon: Trophy,
-      number: "500+",
-      title: "Students Trained",
-      description: "Successfully mentored over 500 students in MERN stack development",
+      number: "100+",
+      title: "Projects Delivered",
+      description: "Successfully built and deployed custom web and mobile applications worldwide",
     },
     {
       icon: Award,
-      number: "85%",
-      title: "Placement Rate",
-      description: "High placement success rate with top companies",
+      number: "99.8%",
+      title: "Client Satisfaction",
+      description: "Exceptional delivery ratings across client reviews and long-term partnerships",
     },
     {
       icon: Users,
       number: "50+",
-      title: "Projects Delivered",
-      description: "Completed diverse web and mobile applications for clients",
+      title: "Global Clients",
+      description: "Serving startups, SMEs, and enterprises across diverse industries",
     },
     {
       icon: Code,
-      number: "3+",
+      number: "5+",
       title: "Years Experience",
-      description: "Professional development and training experience",
+      description: "Combined technical leadership and enterprise development expertise",
     },
   ]
 
@@ -36,7 +36,7 @@ export function AchievementsSection() {
             Our Achievements
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Proud milestones that reflect our commitment to excellence in tech education
+            Proud milestones reflecting our dedication to engineering world-class digital products
           </p>
         </div>
 

@@ -68,7 +68,7 @@ export function CertificationSection() {
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="text-gray-300">Instructor:</span>
-                    <span className="font-semibold text-green-400">Vali</span>
+                    <span className="font-semibold text-green-400">SPC Digital Solutions</span>
                   </div>
                 </div>
                 <div className="mt-6 p-4 bg-green-400/10 rounded-lg border border-green-400/20">

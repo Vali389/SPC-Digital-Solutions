@@ -9,12 +9,12 @@ export function ExperienceSection() {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "React Native"],
     },
     {
-      title: "Founder of Vali's Tech Hub",
-      company: "Vali's Tech Hub",
-      period: "2022 - Present",
+      title: "Founders & Technical Leaders",
+      company: "SPC Digital Solutions",
+      period: "2021 - Present",
       description:
-        "Building Vali's Tech Hub - delivering web and mobile development services while training students. 50+ client projects and 500+ students trained.",
-      technologies: ["Teaching", "Mentoring", "Project Management", "AWS", "DevOps"],
+        "Leading SPC Digital Solutions - delivering custom web and mobile development services. 100+ client projects delivered across enterprise and consumer sectors.",
+      technologies: ["Engineering Leadership", "System Architecture", "Project Management", "AWS", "DevOps"],
     },
     {
       title: "Web Developer",

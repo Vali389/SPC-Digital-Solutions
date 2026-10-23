@@ -15,8 +15,8 @@ export function FloatingProfile() {
         {/* Profile Image */}
         <div className="relative w-16 h-16 rounded-full overflow-hidden border-3 border-green-500 shadow-lg hover:scale-110 transition-all duration-300">
           <img
-            src="/vali-instructor-photo.png"
-            alt="Vali - Founder of Vali's Tech Hub"
+            src="/female-developer-portrait.png"
+            alt="Sarah - Founder of SPC Digital Solutions"
             className="w-full h-full object-cover"
           />
         </div>

@@ -40,12 +40,12 @@ export function HeroSection() {
       <div className="relative z-20 text-center max-w-7xl mx-auto px-4 pt-24">
         <div className="mb-12">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 tracking-tight">
-            Vali&apos;s Tech Hub
+            SPC Digital Solutions
             <span className="block text-accent text-2xl md:text-3xl mt-2">Pvt Limited</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto mb-10 leading-relaxed">
-            We build custom websites and mobile apps that help your business grow — e-commerce, tutoring platforms, business catalogs, and more.
+            We engineer high-performance websites, mobile apps, and enterprise digital solutions that accelerate business growth.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-gray-300">

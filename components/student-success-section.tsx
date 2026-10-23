@@ -35,17 +35,17 @@ export function StudentSuccessSection() {
     {
       name: "Priya Sharma",
       role: "Full Stack Developer at TCS",
-      text: "Vali's training transformed my career. The hands-on approach and live classes made complex concepts easy to understand.",
+      text: "The technical guidance from SPC Digital Solutions transformed my career. The hands-on project approach made complex concepts easy to understand.",
     },
     {
       name: "Rahul Kumar",
       role: "React Developer at Infosys",
-      text: "The best investment I made for my career. Got placed within 2 months of completing the course.",
+      text: "The best investment I made for my career. Delivered real-world experience that made all the difference.",
     },
     {
       name: "Sneha Patel",
       role: "MERN Stack Developer at Wipro",
-      text: "Excellent mentorship and practical projects. Vali sir's guidance helped me land my dream job.",
+      text: "Excellent mentorship and practical projects. The SPC Digital Solutions team's guidance helped me land my dream job.",
     },
   ]
 

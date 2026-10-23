@@ -124,7 +124,7 @@ export function PlacementAssistanceSection() {
                 Call Now: 9014084396
               </motion.a>
               <motion.a
-                href="mailto:meeravalisk89@gmail.com"
+                href="mailto:contact@spcdigitalsolutions.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 border border-green-400 text-green-400 font-semibold rounded-lg hover:bg-green-400 hover:text-black transition-all duration-300"

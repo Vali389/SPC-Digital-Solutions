@@ -1,30 +1,25 @@
-# Website clone
+# SPC Digital Solutions
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/meeravalisk89-7338s-projects/v0-website-clone)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/VWpxTma033I)
+Premium Web & Mobile Application Development Services.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+SPC Digital Solutions delivers high-performance custom websites, cross-platform iOS & Android mobile apps, and enterprise cloud solutions for growing businesses and startups.
 
-## Deployment
+### Leadership
+- **Sarah** - Founder
+- **Babu** - Co-Founder
 
-Your project is live at:
+## Tech Stack
+- **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion
+- **Backend / Mobile**: Node.js, Express, React Native, REST / GraphQL APIs
+- **Database & Cloud**: MongoDB, PostgreSQL, AWS, Docker
 
-**[https://vercel.com/meeravalisk89-7338s-projects/v0-website-clone](https://vercel.com/meeravalisk89-7338s-projects/v0-website-clone)**
+## Getting Started
 
-## Build your app
+```bash
+npm install
+npm run dev
+```
 
-Continue building your app on:
-
-**[https://v0.app/chat/projects/VWpxTma033I](https://v0.app/chat/projects/VWpxTma033I)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Open [http://localhost:3000](http://localhost:3000) to view the application.

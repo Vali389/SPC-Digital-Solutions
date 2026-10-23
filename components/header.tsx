@@ -11,7 +11,7 @@ export function Header() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/courses", label: "Courses" },
+    { href: "/services", label: "Services" },
     { href: "/pricing", label: "Pricing" },
     { href: "/contact", label: "Contact" },
   ]
@@ -21,11 +21,11 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-3 group">
           <div className="w-12 h-12 bg-gradient-to-br from-accent via-accent to-accent/80 rounded-xl flex items-center justify-center shadow-xl group-hover:shadow-accent/25 transition-all duration-300 group-hover:scale-105">
-            <span className="text-accent-foreground font-bold text-xl">V</span>
+            <span className="text-accent-foreground font-bold text-sm tracking-wider">SPC</span>
           </div>
           <div>
-            <div className="text-foreground font-bold text-xl font-serif">Vali's Tech Hub</div>
-            <div className="text-accent text-sm font-medium">#ValisTechHub</div>
+            <div className="text-foreground font-bold text-xl font-serif">SPC Digital Solutions</div>
+            <div className="text-accent text-sm font-medium">#SPCDigitalSolutions</div>
           </div>
         </Link>
 

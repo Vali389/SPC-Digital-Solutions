@@ -146,7 +146,7 @@ export function FAQSection() {
                   Call: 9014084396
                 </a>
                 <a
-                  href="mailto:meeravalisk89@gmail.com"
+                  href="mailto:contact@spcdigitalsolutions.com"
                   className="bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transition-colors shadow-lg"
                 >
                   Email Us

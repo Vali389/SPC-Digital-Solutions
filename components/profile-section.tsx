@@ -11,8 +11,8 @@ export function ProfileSection() {
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-accent to-accent/80 p-1">
                   <div className="w-full h-full rounded-full overflow-hidden bg-background">
                     <Image
-                      src="/vali-instructor-photo.png"
-                      alt="Vali - Founder of Vali's Tech Hub"
+                      src="/female-developer-portrait.png"
+                      alt="Sarah - Founder of SPC Digital Solutions"
                       width={192}
                       height={192}
                       className="w-full h-full object-cover"
@@ -40,9 +40,9 @@ export function ProfileSection() {
               <div className="text-sm text-muted-foreground">In Web & Mobile Development</div>
             </div>
             <div className="text-center p-6 rounded-xl bg-card border border-border">
-              <div className="text-3xl font-bold text-accent mb-2">500+</div>
-              <div className="text-lg font-medium text-foreground mb-1">Students Trained</div>
-              <div className="text-sm text-muted-foreground">Successful Career Transitions</div>
+              <div className="text-3xl font-bold text-accent mb-2">50+</div>
+              <div className="text-lg font-medium text-foreground mb-1">Enterprise Clients</div>
+              <div className="text-sm text-muted-foreground">Global Business Partners</div>
             </div>
             <div className="text-center p-6 rounded-xl bg-card border border-border">
               <div className="text-3xl font-bold text-accent mb-2">100+</div>

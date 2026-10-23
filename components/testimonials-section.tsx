@@ -11,7 +11,7 @@ const testimonials = [
     role: "Hyderabad",
     project: "BrainBreeze Tutors - Online Tutoring Platform",
     content:
-      "Vali developed our complete online tutoring platform from scratch and the result exceeded all our expectations. The platform includes live classes, student dashboards, payment integration, and a beautiful admin panel. His attention to detail and commitment to delivering quality work is outstanding. BrainBreeze Tutors is now serving hundreds of students. Highly recommended for any development project!",
+      "SPC Digital Solutions developed our complete online tutoring platform from scratch and the result exceeded all our expectations. The platform includes live classes, student dashboards, payment integration, and a beautiful admin panel. Their attention to detail and commitment to delivering quality work is outstanding. BrainBreeze Tutors is now serving hundreds of students. Highly recommended for any development project!",
     rating: 5,
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
     role: "Client",
     project: "Tiles Business Website",
     content:
-      "We needed a professional website to showcase our tiles catalog and reach more customers. Vali delivered exactly that and more. The website features a stunning product gallery, easy navigation, contact forms, and is fully responsive. The project was completed on time with great communication throughout. Our online presence has grown significantly since the launch. Will definitely work together again for future projects!",
+      "We needed a professional website to showcase our tiles catalog and reach more customers. SPC Digital Solutions delivered exactly that and more. The website features a stunning product gallery, easy navigation, contact forms, and is fully responsive. The project was completed on time with great communication throughout. Our online presence has grown significantly since the launch. Will definitely work together again for future projects!",
     rating: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Hyderabad",
     project: "Pipes Business Website",
     content:
-      "Vali's expertise in MERN stack and Spring Boot is impressive. He built our pipes business website with a modern design, product catalog, inquiry system, and smooth performance. The website has helped us attract new customers and streamline our business operations. Professional, responsive, and always available to address our needs. Our pipes business is running smoothly online. Great developer and a pleasure to work with!",
+      "The full-stack expertise at SPC Digital Solutions is impressive. They built our pipes business website with a modern design, product catalog, inquiry system, and smooth performance. The website has helped us attract new customers and streamline our business operations. Professional, responsive, and always available to address our needs. Our pipes business is running smoothly online. Great team and a pleasure to work with!",
     rating: 5,
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     role: "China",
     project: "Web & Mobile Solution",
     content:
-      "Working with Vali across different time zones was seamless. He built both our web application and mobile app with exceptional quality. The solutions are fast, user-friendly, and have transformed how we serve our customers. His technical skills combined with his professionalism make him stand out. The mobile app and web solution he built for us has been a game-changer for our business. I would recommend him to anyone looking for reliable development services.",
+      "Working with SPC Digital Solutions across different time zones was seamless. They built both our web application and mobile app with exceptional quality. The solutions are fast, user-friendly, and have transformed how we serve our customers. Their technical skills combined with their professionalism make them stand out. The mobile app and web solution they built for us has been a game-changer for our business. I would recommend them to anyone looking for reliable development services.",
     rating: 5,
   },
   {
@@ -43,7 +43,7 @@ const testimonials = [
     role: "Client",
     project: "Interiors Business Website",
     content:
-      "Vali developed our interiors business website and did an excellent job. The website showcases our interior design portfolio, services, and has helped us attract new clients. Clean design, easy to navigate, and professional. Very satisfied with the work and would recommend to others looking for a quality website.",
+      "SPC Digital Solutions developed our interiors business website and did an excellent job. The website showcases our interior design portfolio, services, and has helped us attract new clients. Clean design, easy to navigate, and professional. Very satisfied with the work and would recommend to others looking for a quality website.",
     rating: 5,
   },
 ]

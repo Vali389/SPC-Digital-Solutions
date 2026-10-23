@@ -18,9 +18,9 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "Vali's Tech Hub - Web & Mobile Development",
+  title: "SPC Digital Solutions - Web & Mobile Development",
   description:
-    "Vali's Tech Hub - Founder Vali delivers websites and mobile apps. 3+ years experience, 50+ projects. Web development, mobile apps, and training.",
+    "SPC Digital Solutions - Delivering premium web and mobile applications, enterprise software solutions, and digital transformation services.",
   generator: "v0.app",
 }
 
