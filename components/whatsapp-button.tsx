@@ -7,7 +7,7 @@ export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919014084396"
+    const phoneNumber = "917337334855"
     const message = encodeURIComponent("Hello SPC Digital Solutions! I would like to discuss a project.")
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
   }

@@ -116,12 +116,12 @@ export function PlacementAssistanceSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:9014084396"
+                href="tel:7337334855"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 bg-green-400 text-black font-semibold rounded-lg hover:bg-green-300 transition-colors duration-300"
               >
-                Call Now: 9014084396
+                Call Now: 7337334855
               </motion.a>
               <motion.a
                 href="mailto:contact@spcdigitalsolutions.com"

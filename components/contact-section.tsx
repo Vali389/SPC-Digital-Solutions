@@ -24,7 +24,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold">Phone</div>
-                  <div className="text-muted-foreground">+91 9014084396</div>
+                  <div className="text-muted-foreground">+91 7337334855</div>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ export function ContactSection() {
             <CardContent className="space-y-4">
               <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                 <span className="mr-2">📱</span>
-                Call Now: +91 9014084396
+                Call Now: +91 7337334855
               </Button>
 
               <Button

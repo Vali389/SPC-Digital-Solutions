@@ -140,10 +140,10 @@ export function FAQSection() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:9014084396"
+                  href="tel:7337334855"
                   className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors shadow-lg"
                 >
-                  Call: 9014084396
+                  Call: 7337334855
                 </a>
                 <a
                   href="mailto:contact@spcdigitalsolutions.com"

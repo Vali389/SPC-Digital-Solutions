@@ -34,7 +34,7 @@ export function ContactHeroSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
             <div className="text-center">
-              <div className="text-xl md:text-2xl font-bold text-accent">+91 9014084396</div>
+              <div className="text-xl md:text-2xl font-bold text-accent">+91 7337334855</div>
               <div className="text-sm text-gray-300">Call or WhatsApp</div>
             </div>
             <div className="text-center">

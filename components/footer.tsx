@@ -38,9 +38,9 @@ export function Footer() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="text-xl font-bold text-white mb-1">Sarah & Babu</div>
+                <div className="text-xl font-bold text-white mb-1">Sarah</div>
                 <div className="text-sm text-green-400 font-medium">
-                  Founders, SPC Digital Solutions
+                  Founder, SPC Digital Solutions
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ export function Footer() {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center space-x-3 hover:text-green-400 transition-colors">
                 <span className="text-green-400">📞</span>
-                <span>+91 9014084396</span>
+                <span>+91 7337334855</span>
               </li>
               <li className="flex items-center space-x-3 hover:text-green-400 transition-colors">
                 <span className="text-green-400">✉️</span>
