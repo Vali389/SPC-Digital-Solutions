@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export function ProfileSection() {
   return (
     <section className="py-20 bg-gradient-to-br from-background via-muted/20 to-background">
@@ -10,11 +8,9 @@ export function ProfileSection() {
               <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-accent/20 to-accent/40 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-accent to-accent/80 p-1">
                   <div className="w-full h-full rounded-full overflow-hidden bg-background">
-                    <Image
+                    <img
                       src="/female-developer-portrait.png"
                       alt="Sarah - Founder of SPC Digital Solutions"
-                      width={192}
-                      height={192}
                       className="w-full h-full object-cover"
                     />
                   </div>

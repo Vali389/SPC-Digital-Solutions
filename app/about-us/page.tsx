@@ -2,7 +2,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { ScrollToTop } from "@/components/scroll-to-top"
-import Link from "next/link"
+import { Link } from "react-router-dom"
 
 export default function AboutUs() {
   return (

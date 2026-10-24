@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Award, BookOpen, Code2, Users } from "lucide-react"
-import Image from "next/image"
 
 export function InstructorSection() {
   const achievements = [
@@ -38,11 +37,10 @@ export function InstructorSection() {
           >
             <div className="relative w-64 h-64 mx-auto lg:mx-0 mb-8">
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 rounded-full blur-lg opacity-30 animate-pulse"></div>
-              <Image
+              <img
                 src="/female-developer-portrait.png"
                 alt="Sarah - Founder of SPC Digital Solutions"
-                fill
-                className="rounded-full object-cover border-4 border-green-400/30 relative z-10"
+                className="w-full h-full rounded-full object-cover border-4 border-green-400/30 relative z-10"
               />
             </div>
             <h3 className="text-3xl font-bold mb-2">Sarah & Babu</h3>
